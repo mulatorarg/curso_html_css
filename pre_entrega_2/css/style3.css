@@ -60,3 +60,37 @@ h5 {
 .card-text {
   padding-top: 10px;
 }
+
+.card {
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.title h1 {
+  color: #FFF;
+  background-image: url('../img/fuego.webp');
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2em;
+  margin: 10px 0;
+}

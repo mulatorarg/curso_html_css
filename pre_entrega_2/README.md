@@ -1,4 +1,4 @@
-# Curso Diseño Web Flex
+# Curso Desarrollo Web Flex
 
 Repositorio público para compartir la experiencia...
 
