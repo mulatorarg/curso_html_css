@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-a {
+* {
   color: #444;
 }
 
@@ -93,4 +93,31 @@ h5 {
   background-clip: text;
   font-size: 2em;
   margin: 10px 0;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.card-wrapper:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+
+.card-wrapper {
+  display: flex;
+  border-radius: 4px;
+  background: #fafafa;
+}
+
+.card-wrapper, .item-wrapper {
+  overflow: hidden;
+}
+.card-wrapper {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
 }
