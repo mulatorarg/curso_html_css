@@ -1,8 +1,14 @@
+$color-texto: #444;
+$bg-comun: #00000050;
+$color-white: #fefefe;
+$color-white-trans: #fefefe88;
+$color-rosa-trans: #feaafe88;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #444;
+  color: $color-texto;
 }
 
 @font-face {
@@ -14,7 +20,7 @@ body {
   background-color: #eaeaea;
   font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   overflow-x: hidden;
-  color: #444;
+  color: $color-texto;
 }
 
 header {
@@ -44,7 +50,7 @@ header {
 
   nav ul {
     list-style-type: none;
-    background-color: #00000050;
+    background-color: $bg-comun;
     padding: 10px;
 
     li {
@@ -52,7 +58,7 @@ header {
 
       a {
         margin: 10px;
-        color: white;
+        color: $color-white;
         text-decoration: none;
       }
     }
@@ -64,7 +70,7 @@ main {
 }
 
 footer {
-  background-color: #efefef;
+  background-color: $color-white;
   color: #222;
   text-align: left;
 
@@ -98,14 +104,14 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #efefef;
+  color: $color-white;
   font-size: 2em;
   text-align: center;
-  text-shadow: 2px 2px 4px #00000050;
+  text-shadow: 2px 2px 4px $bg-comun;
 }
 
 .footer-inicio {
-  background-color: #00000050;
+  background-color: $bg-comun;
   margin: 0 auto;
   padding: 10px;
   position: absolute;
@@ -113,8 +119,8 @@ footer {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  color: #efefef;
-  text-shadow: 1px 1px 2px #00000050;
+  color: $color-white;
+  text-shadow: 1px 1px 2px $bg-comun;
 
   nav {
     text-align: center;
@@ -143,7 +149,7 @@ h1 {
   color: darkgreen;
   font-size: 2em;
   text-align: center;
-  text-shadow: 1px 1px 2px #00000050;
+  text-shadow: 1px 1px 2px $bg-comun;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -154,13 +160,18 @@ form {
   background: url('../img/hero-dark.jpg');
   width: 100%;
   padding: 10px;
-  color: #fefefe;
+  color: $color-white;
 }
 
 fieldset {
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
+  color: $color-white;
+}
+
+label {
+  color: $color-white;
 }
 
 input {
@@ -219,14 +230,14 @@ h1 {
   color: darkgreen;
   font-size: 2em;
   text-align: center;
-  text-shadow: 1px 1px 2px #00000050;
+  text-shadow: 1px 1px 2px $bg-comun;
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
   line-height: 1.1;
   margin-top: 10px;
   margin-bottom: 10px;
-  background: linear-gradient(to bottom, #fefefe88, #feaafe88);
+  background: linear-gradient(to bottom, $color-white-trans, $color-rosa-trans);
 }
 
 h5 {
@@ -252,7 +263,7 @@ h5 {
 }
 
 .text {
-  color: #444 !important;
+  color: $color-texto !important;
 }
 
 .text-white {
@@ -268,6 +279,7 @@ h5 {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: all 0.3s;
+  border: 3px solid $color-white-trans;
 
   &:hover {
     transform: translateY(-8px);

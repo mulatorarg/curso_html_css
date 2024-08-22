@@ -50,7 +50,7 @@ header nav ul li {
 }
 header nav ul li a {
   margin: 10px;
-  color: white;
+  color: #fefefe;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ main {
 }
 
 footer {
-  background-color: #efefef;
+  background-color: #fefefe;
   color: #222;
   text-align: left;
 }
@@ -90,7 +90,7 @@ footer ul li a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #efefef;
+  color: #fefefe;
   font-size: 2em;
   text-align: center;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3137254902);
@@ -105,7 +105,7 @@ footer ul li a {
   bottom: 0px;
   left: 0px;
   right: 0px;
-  color: #efefef;
+  color: #fefefe;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3137254902);
 }
 .footer-inicio nav {
@@ -149,6 +149,11 @@ fieldset {
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
+  color: #fefefe;
+}
+
+label {
+  color: #fefefe;
 }
 
 input {
@@ -253,6 +258,7 @@ h5 {
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: all 0.3s;
+  border: 3px solid rgba(254, 254, 254, 0.5333333333);
 }
 .card:hover {
   transform: translateY(-8px);
