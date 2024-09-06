@@ -194,7 +194,7 @@ button {
 }
 .title h3 {
   color: #FFF;
-  background-image: url("../img/fuego.webp");
+  background-image: url("../img/fondo.gif");
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
@@ -202,6 +202,7 @@ button {
   background-clip: text;
   font-size: 2em;
   margin: 10px 0;
+  text-shadow: 2px 2px 2px rgba(196, 196, 196, 0.2274509804);
 }
 
 h1 {
@@ -277,7 +278,7 @@ h5 {
 }
 .title h1 {
   color: #FFF;
-  background-image: url("../img/fuego.webp");
+  background-image: url("../img/fondo.gif");
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
@@ -285,6 +286,7 @@ h5 {
   background-clip: text;
   font-size: 2em;
   margin: 10px 0;
+  text-shadow: 2px 2px 2px rgba(254, 254, 254, 0.5333333333);
 }
 
 h6 {
