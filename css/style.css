@@ -238,8 +238,6 @@ h5 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  max-height: 230px;
-  width: auto;
 }
 
 .text {

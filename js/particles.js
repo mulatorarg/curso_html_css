@@ -9,15 +9,15 @@ particlesJS("particles-js",
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#90ef86"
       },
       "opacity": {
         "value": 0.8,
-        "random": true,
+        "random": false,
         "anim": {
-          "enable": true,
+          "enable": false,
           "speed": 0.5,
-          "opacity_min": 0.1,
+          "opacity_min": 0.4,
           "sync": false
         }
       },
