@@ -16,6 +16,11 @@ body {
   color: #444;
 }
 
+html {
+  scrollbar-width: thin !important;
+  scrollbar-color: #222 !important;
+}
+
 header {
   background-color: cadetblue;
   text-align: center;
@@ -57,11 +62,23 @@ header nav ul li a {
 main {
   padding: 20px;
 }
+main h3 {
+  border-left: 5px #008000 solid;
+  font-size: 1.2em;
+  color: #008000;
+  font-weight: bold;
+  padding-left: 10px;
+}
 
 footer {
   background-color: #fefefe;
   color: #222;
   text-align: left;
+}
+footer h5 {
+  font-size: 1.2em;
+  color: #008000;
+  font-weight: bold;
 }
 footer ul {
   list-style-type: none;
@@ -315,4 +332,4 @@ h6 {
   align-items: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=pages.css.map */

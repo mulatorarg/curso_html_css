@@ -9,7 +9,7 @@ particlesJS("particles-js",
         }
       },
       "color": {
-        "value": "#90ef86"
+        "value": "#80ef80"
       },
       "opacity": {
         "value": 0.8,

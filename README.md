@@ -1,5 +1,5 @@
 # Curso Desarrollo Web Flex
 
-Repositorio público para compartir la experiencia...
+Repositorio público para compartir la experiencia del curso...
 
-En este caso, es la segunda entrega.
+Trabajo integrador de lo dictado.
