@@ -70,9 +70,9 @@ main {
   padding: 20px;
 
   h3 {
-    border-left: 5px #008000 solid;
+    border-left: 5px $texto-resalte solid;
     font-size: 1.2em;
-    color: #008000;
+    color: $texto-resalte;
     font-weight: bold;
     padding-left: 10px;
   }
@@ -85,7 +85,7 @@ footer {
 
   h5 {
     font-size: 1.2em;
-    color: #008000;
+    color: $texto-resalte;
     font-weight: bold;
   }
 
@@ -101,57 +101,10 @@ footer {
         text-decoration: none;
         padding: 10px;
         line-height: 1;
-      }
-    }
-  }
-}
+        border-left: 1px soilid #333;
 
-.fondo {
-  background: url($img-fondo) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.logo-inicio {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: $color-white;
-  font-size: 2em;
-  text-align: center;
-  text-shadow: 2px 2px 4px $bg-comun;
-}
-
-.footer-inicio {
-  background-color: $bg-comun;
-  margin: 0 auto;
-  padding: 10px;
-  position: absolute;
-  padding: 20px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  color: $color-white;
-  text-shadow: 1px 1px 2px $bg-comun;
-
-  nav {
-    text-align: center;
-
-    ul {
-      list-style-type: none;
-
-      li {
-        text-align: center;
-        display: inline-block;
-        padding: 10px;
-
-        a {
-          color: white;
-          text-decoration: none;
-          padding: 10px;
+        &:hover {
+          border-left: 1px soilid $texto-resalte;
         }
       }
     }
@@ -200,22 +153,6 @@ button {
   border-radius: 10px;
   border: 1px solid thistle;
   width: 120px;
-}
-
-.contenedor {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-
-  div {
-    border: 1px solid blue;
-  }
-
-  img {
-    width: auto;
-    height: 100%;
-    max-height: 250px;
-  }
 }
 
 .title {
@@ -292,7 +229,7 @@ h5 {
   border-radius: 8px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  transition: all 0.3s;
+  transition: all 1s;
   border: 3px solid $color-white-trans;
 
   &:hover {
@@ -344,12 +281,15 @@ h6 {
   overflow: hidden;
 }
 
-.card-wrapper {
-  -webkit-flex: 1;
-  flex: 1;
-}
-
 .image-wrapper {
   display: flex;
   align-items: center;
+}
+
+.nav-item {
+  border-left: 1px soilid #333!important;
+
+  &:hover {
+    border-left: 1px soilid $texto-resalte!important;
+  }
 }

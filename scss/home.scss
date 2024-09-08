@@ -1,7 +1,5 @@
 @import '_variables.scss';
 
-@import '_particles.css';
-
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +46,6 @@ html {
 .footer-inicio {
   background-color: $bg-comun;
   margin: 0 auto;
-  padding: 10px;
   position: absolute;
   padding: 20px;
   bottom: 0px;
