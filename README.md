@@ -2,4 +2,4 @@
 
 Repositorio público para compartir la experiencia del curso...
 
-Trabajo integrador de lo dictado.
+Trabajo práctico integrador de lo dictado.
